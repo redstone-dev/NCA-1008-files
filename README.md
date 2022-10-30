@@ -11,7 +11,7 @@ The name "NCA" stands for "Nitro Compute Architecture" because it's fast. The 10
 
 NCA-1008's assembly code is designed to be as straightforward and powerful as it possibly can be within the boundaries of Scratch. I will make a guide for writing it soon.
 
-There are a few accessible registers (A, B, C, D, W, X, Y & Z*) and some memory to work with. However, register Z is read-only in "PRG space" (which is my term for user-made programs) because there needs to a register or two to simply store a value from an operation.
+There are a few accessible registers (A, B, C, D, W, X, Y, Z, EXEC) and some memory to work with. However, register Z is read-only in "PRG space" (which is my term for user-made programs) because there needs to a register or two to simply store a value from an operation. The EXEC register is also read-only in PRG space because it is used for executing machine code instructions.
 
 The NCA-1008 is different because you it doesn't use the registers to accept input. Instead, your code is compiled from PRG into machine code which is interpreted. PRG which is where you write your programs. So in reality, it's more of an assembler with an integrated CPU.
 
