@@ -1,3 +1,6 @@
+# NOTICE
+NCA-1008 is not complete. I'm currently in the stage of finishing it up, but it still might not be available for a few days from now.
+
 # NCA-1008 Files
 A computer in Scratch. The files are available here.
 
